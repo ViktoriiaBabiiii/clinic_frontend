@@ -1,0 +1,65 @@
+.service-list-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%; /* Stretches the container to use the full width available */
+    max-width: 1400px; /* Increased max width for larger screens */
+    margin: 20px auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.service-item:hover {
+    transform: scale(1.05); /* Scales up the item slightly to highlight it */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enhances the shadow effect on hover */
+}
+
+.service-item h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.service-price {
+    font-size: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px; /* Slightly larger font size for better visibility */
+    margin-bottom: 20px; /* Added space below the heading */
+}
+
+.search-input {
+    padding: 10px;
+    margin: 10px 0 20px;
+    width: calc(100% - 20px); /* Full width minus padding */
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition for visual feedback */
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4CAF50; /* Highlight focus with theme color */
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.2); /* Subtle glow on focus */
+}
+

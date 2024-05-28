@@ -1,0 +1,42 @@
+.hero {
+    background-image: url('../images/clinic.png'); /* Ensure the image path is correct */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+}
+
+.hero h1 {
+    font-size: 48px; /* Increased from 36px to 48px for larger text */
+}
+
+.appointment-btn {
+    background-color: #406b40;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block; /* Block display for centering */
+    margin: 0 auto; /* Center button horizontally */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+.appointment-btn:hover {
+    background-color: #345030; /* Darker shade on hover */
+}
+
+.stats {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 20px 0; /* Add padding for better spacing */
+    background-color: #f4f4f4; /* Assuming you want a light grey background, adjust as needed */
+    font-size: 18px; /* Set the font size to match your design */
+}
+
+.stats div {
+    margin: 0 10px; /* Add horizontal spacing between each stat */
+}
+
+

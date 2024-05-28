@@ -1,0 +1,26 @@
+.main-content {
+    background-color: #fff; /* White background with a green border for content sections */
+    border: 1px solid #406b40;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mission, .history, .values {
+    border-top: 3px solid #406b40; /* Green top border for each section */
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 200px; /* Smaller max width to fit images nicely on the side */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+}
+
+.mission p, .history p, .values p {
+    flex: 1; /* Allow the text to take up the remaining space */
+}
